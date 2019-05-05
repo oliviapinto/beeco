@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="accueil">
+        <div class="accueil__container">
+            <div class="accueil__container-ios">
+                <img class="accueil__container-ios-img" src="./assets/icones/ios_elements.svg" alt="">
+            </div>
+            <div class="accueil__container-ecran" id="ecran1">
+                <img class="accueil__container-ecran-img" src="./assets/icones/borne1.png" alt="map">
+            </div>
+            <div class="accueil__container-text" id="text1">
+                <h2 class="accueil__container-text-title"> Scan</h2>
+                <p class="accueil__container-text-p "> Avant de peser tes déchets, scanne le QR <br> code qui est sur
+                    l'écran de la borne </p>
+                <a class="accueil__container-text-button" id="compris" href="#"> J'ai compris</a>
+            </div>
+            <div class="scan">
+                <div class="scan__container">
+                    <img class="scan__container-img" src="./assets/icones/scan_qrcode.png" alt="scan qr code">
+                </div>
+                <a class="scan__link" id="valider" href="#"> Valider </a>
+            </div>
+            <div class="ecran2" id="ecran2">
+                <div class="accueil__container-ecran">
+                    <img class="accueil__container-ecran-img" src="./assets/icones/slide2.svg" alt="slide">
+                </div>
+                <div class="accueil__container-text">
+                    <h2 class="accueil__container-text-title"> Pèse tes déchets</h2>
+                    <p class="accueil__container-text-p "> Tu peux maintenant peser tes déchets dans le
+                        côté gauche de la borne. Valide la quantité sur
+                        l’écran de la borne.
+                        <a class="accueil__container-text-button" id="compris2" href="#"> J'ai compris</a>
+                </div>
+            </div>
+
+            <div class="tapbar">
+                <div class="tapbar__container">
+                    <a class="tapbar__container-link" href="./borne.html">
+                        <img class="tapbar__container-link-img" src="./assets/icones/pin_nonactive.svg" alt="pin">
+                    </a>
+                    <p class="tapbar__container-text"> Bornes </p>
+                </div>
+                <div class="tapbar__container">
+                    <a class="tapbar__container-link" href="./defi.html">
+                        <img class="tapbar__container-link-img" src="./assets/icones/target.svg" alt="target">
+                    </a>
+                    <p class="tapbar__container-text"> Défis </p>
+                </div>
+                <div class="tapbar__container">
+                    <a class="tapbar__container-link" href="./scan.html">
+                        <img class="tapbar__container-link-img" src="./assets/icones/scan_active.svg" alt="scan">
+                    </a>
+
+                    <p class="tapbar__container-text"> Scan </p>
+                </div>
+                <div class="tapbar__container">
+                    <a class="tapbar__container-link" href="./boutique.html">
+                        <img class="tapbar__container-link-img" src="./assets/icones/present.svg" alt="cadeau">
+                    </a>
+                    <p class="tapbar__container-text"> Boutique </p>
+                </div>
+            </div>
+            <img class="section3__line--new" src="./assets/icones/line.svg" alt="line">
+        </div>
+    </section>
+
+    <section class="bonjour" id="loading">
+        <img class="bonjour__olivia" src="./assets/icones/loading.svg" alt="bonjour">
+    </section>
+
+    <section class="felicitations" id="felicitations">
+        <div class="felicitations__container">
+            <div class="accueil__container-ecran">
+                <img class="accueil__container-ecran-img" src="./assets/icones/felicitations.png" alt="slide">
+            </div>
+            <div class="accueil__container-text">
+                <h2 class="accueil__container-text-title"> Félicitations ! </h2>
+                <p class="accueil__container-text-p "> Ton compte vient être crédité de <span> 100 points</span>
+                        supplémentaires. Tu peux aller les dépenser
+                        à la boutique ou attendre encore.
+                <a class="login-register__button1" href="boutique.html"> Je vais à la boutique</a>
+                <a class="login-register__button2" href=""> Pas maintenant </a>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

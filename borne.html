@@ -1,0 +1,135 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="./reset.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="accueil" id="map2">
+        <div class="accueil__container">
+            <div class="accueil__container-ios">
+                <img class="accueil__container-ios-img" src="./assets/icones/ios_elements.svg" alt="">
+            </div>
+            <div class="accueil__container-ecran" id="ecran">
+                <img class="accueil__container-ecran-img" src="./assets/icones/map2.png" alt="map">
+            </div>
+            <div class="accueil__container-text" id="text">
+                <h2 class="accueil__container-text-title">Ton trajet jusqu'à la  <br> borne est prêt!</h2>
+                <p class="accueil__container-text-p "> Le tracé vert t'indique le chemin le plus rapide <br> vers la borne</p>
+                <a class="accueil__container-text-button" id="aller" href="#"> Aller </a>
+            </div>
+            <div class="accueil__container" id="map3">
+                <div class="accueil__container-ecran">
+                    <img class="accueil__container-ecran-img" src="./assets/icones/map3.png" alt="map">
+                </div>
+                <div class="accueil__container-route">
+                    <h2 class="accueil__container-route-title"> ITINERAIRE </h2>
+                    <div class="accueil__container-route-trajet">
+                        <div class="accueil__container-route-trajet-item">
+                            <img class="accueil__container-route-trajet-item-fleche"
+                                src="./assets/icones/left_arrow.svg" alt="">
+                            <div class="accueil__container-route-trajet-item-text">
+                                <p class="accueil__container-route-trajet-item-text-1">40 m</p>
+                                <p class="accueil__container-route-trajet-item-text-2">40m tourne à gauche</p>
+                            </div>
+                        </div>
+                        <div class="accueil__container-route-trajet-item">
+                            <img class="accueil__container-route-trajet-item-fleche"
+                                src="./assets/icones/right_arrow.svg" alt="">
+                            <div class="accueil__container-route-trajet-item-text">
+                                <p class="accueil__container-route-trajet-item-text-1">60 m</p>
+                                <p class="accueil__container-route-trajet-item-text-2">Prends à droite sur rue Brunel
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accueil__container-route-trajet-item">
+                            <img class="accueil__container-route-trajet-item-fleche"
+                                src="./assets/icones/left_arrow.svg" alt="">
+                            <div class="accueil__container-route-trajet-item-text">
+                                <p class="accueil__container-route-trajet-item-text-1">60 m</p>
+                                <p class="accueil__container-route-trajet-item-text-2">Tourne à gauche sur Boulevard
+                                    Pereire
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accueil__container-route-trajet-item">
+                            <img class="accueil__container-route-trajet-item-fleche"
+                                src="./assets/icones/right_arrow.svg" alt="">
+                            <div class="accueil__container-route-trajet-item-text">
+                                <p class="accueil__container-route-trajet-item-text-1"> 40 m</p>
+                                <p class="accueil__container-route-trajet-item-text-2">Prends à droite sur Avenue des
+                                    Ternes
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accueil__container-route-time">
+                        <div class="accueil__container-route-time-text">
+                            <p class="accueil__container-route-time-text-1">10h45</p>
+                            <p class="accueil__container-route-time-text-2">arrivée</p>
+                        </div>
+                        <div class="accueil__container-route-time-text">
+                            <p class="accueil__container-route-time-text-1">2</p>
+                            <p class="accueil__container-route-time-text-2">min</p>
+                        </div>
+                        <div class="accueil__container-route-time-text">
+                            <p class="accueil__container-route-time-text-1">0,2</p>
+                            <p class="accueil__container-route-time-text-2">km</p>
+                        </div>
+                        <a class="accueil__container-route-time-button" id="fin" href="#"> Fin </a>
+                    </div>
+                </div>
+            </div>
+            <div class="map4__container" id="map4">
+                <div class="accueil__container-ecran">
+                    <img class="accueil__container-ecran-img" src="./assets/icones/map4.png" alt="map">
+                </div>
+                <div class="map4__container-text">
+                    <h2 class="map4__container-text-title"> Tu es arrivé(e)!</h2>
+                    <p class="map4__container-text-p "> Tu es arrivé(e) à la borne. Tu peux scanner <br> Le QR code de la borne pour jeter tes déchets
+                    <a class="map4__container-text-button" href="./scan.html"> Je scanne maintenant </a>
+                    <a class="map4__container-text-button2" href="./borne.html"> Pas maintenant</a>
+                </div>
+            </div>
+            <div class="tapbar">
+                <div class="tapbar__container">
+                    <a class="tapbar__container-link" href="./borne.html">
+                        <img class="tapbar__container-link-img" src="./assets/icones/pin_active.svg" alt="pin">
+                    </a>
+                    <p class="tapbar__container-text"> Bornes </p>
+                </div>
+                <div class="tapbar__container">
+                    <a class="tapbar__container-link" href="./defi.html">
+                        <img class="tapbar__container-link-img" src="./assets/icones/target.svg" alt="target">
+                    </a>
+                    <p class="tapbar__container-text"> Défis </p>
+                </div>
+                <div class="tapbar__container">
+                    <a class="tapbar__container-link" href="./scan.html">
+                        <img class="tapbar__container-link-img" src="./assets/icones/scan.svg" alt="scan">
+                    </a>
+
+                    <p class="tapbar__container-text"> Scan </p>
+                </div>
+                <div class="tapbar__container">
+                    <a class="tapbar__container-link" href="./boutique.html">
+                        <img class="tapbar__container-link-img" src="./assets/icones/present.svg" alt="cadeau">
+                    </a>
+                    <p class="tapbar__container-text"> Boutique </p>
+                </div>
+            </div>
+            <img class="section3__line" src="./assets/icones/line.svg" alt="line">
+        </div>
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

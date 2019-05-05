@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="8" viewBox="0 0 56 8">
+  <g id="Group_1706" data-name="Group 1706" transform="translate(-168 -565)">
+    <g id="Slider_dots" data-name="Slider dots" transform="translate(8 509)">
+      <rect id="dot" width="8" height="8" rx="4" transform="translate(176 56)" fill="#e7e7e8"/>
+      <rect id="dot-2" data-name="dot" width="8" height="8" rx="4" transform="translate(192 56)" fill="#e7e7e8" opacity="0.999"/>
+      <rect id="dot-3" data-name="dot" width="8" height="8" rx="4" transform="translate(160 56)" fill="#1a1824" opacity="0.1"/>
+    </g>
+    <path id="dot-4" data-name="dot" d="M4,0A4,4,0,1,1,0,4,4,4,0,0,1,4,0Z" transform="translate(216 565)" fill="#21d68c" opacity="0.995"/>
+  </g>
+</svg>

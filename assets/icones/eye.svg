@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Eye_visible_button" data-name="Eye visible button" transform="translate(-322 -301)">
+    <rect id="Rectangle_1721" data-name="Rectangle 1721" width="30" height="30" transform="translate(322 301)" fill="#fff"/>
+    <g id="Group_1035" data-name="Group 1035" transform="translate(329 310)">
+      <path id="Path_327" data-name="Path 327" d="M8.012,0a8.413,8.413,0,0,0-8,5.907.336.336,0,0,0,0,.2,8.366,8.366,0,0,0,15.992,0,.336.336,0,0,0,0-.2A8.413,8.413,0,0,0,8.012,0Zm0,10.683a4.674,4.674,0,1,1,4.674-4.674A4.679,4.679,0,0,1,8.012,10.683Z" transform="translate(0)" fill="#21d68c"/>
+      <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="2.671" cy="2.671" rx="2.671" ry="2.671" transform="translate(5.341 3.338)" fill="#21d68c"/>
+    </g>
+  </g>
+</svg>

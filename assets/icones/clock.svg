@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="334.444" height="168" viewBox="0 0 334.444 168">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#22d78c"/>
+      <stop offset="1" stop-color="#0ebca4"/>
+    </linearGradient>
+    <filter id="Rectangle_2070" x="0" y="0" width="334.444" height="168" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1607" data-name="Group 1607" transform="translate(-20 -528)">
+    <g transform="matrix(1, 0, 0, 1, 20, 528)" filter="url(#Rectangle_2070)">
+      <rect id="Rectangle_2070-2" data-name="Rectangle 2070" width="316.444" height="150" rx="7" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="VS_Clock" data-name="VS Clock" transform="translate(188 615.98)" fill="#eaf9f2" font-size="20" font-family="SFProText-Bold, SF Pro Text" font-weight="700" letter-spacing="-0.01em"><tspan x="0" y="0">VS Clock</tspan></text>
+    <g id="history-clock-button_1_" data-name="history-clock-button (1)" transform="translate(42 537.449)">
+      <g id="history" transform="translate(0 12.75)">
+        <path id="Path_2590" data-name="Path 2590" d="M66.342,12.75c-22.114,0-41.7,11.7-51.81,29.558L0,28.145V68.171H41.069L23.378,50.929A48.256,48.256,0,0,1,66.342,25.066c25.9,0,47.387,20.937,47.387,46.184s-21.482,46.184-47.387,46.184a47.907,47.907,0,0,1-44.86-30.789H8.214c6.95,24.632,30.328,43.105,58.128,43.105,33.487,0,60.023-26.479,60.023-58.5S99.2,12.75,66.342,12.75ZM56.864,43.539V74.945l29.7,17.242,5.055-8.005L66.342,69.4V43.539Z" transform="translate(0 -12.75)" fill="#eaf9f2" opacity="0.998"/>
+      </g>
+    </g>
+  </g>
+</svg>
